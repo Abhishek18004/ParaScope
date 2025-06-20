@@ -7,7 +7,7 @@ streamlit run main.py    # Run your Streamlit app
 **ParaScope** is a multi-modal academic assistant that simplifies dense research papers, scanned notes, and technical PDFs using state-of-the-art AI. It supports academic comprehension by generating summaries, glossaries, and question-answer pairs.
 
 
-## 🚀 Features
+## Features
 
 - **Multi-format Input Modes**
   - Paste academic text
@@ -30,7 +30,7 @@ streamlit run main.py    # Run your Streamlit app
   - Provides visual warnings and fallback messages
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: Streamlit 
 - **Backend**: Python, pdfplumber, PyMuPDF, Pillow (OCR), Regex
@@ -38,7 +38,7 @@ streamlit run main.py    # Run your Streamlit app
 - **Utilities**: Session state, Prompt templates, Dynamic chunking
 
 
-## ▶️ Getting Started
+## Getting Started
 
 ```bash
 # 1. Activate virtual environment
@@ -66,7 +66,7 @@ streamlit run main.py
 ![Image Mode](screenshots/image_Input.png)
 
 
-## 📂 Project Structure
+## Project Structure
 
 academic_summarizer/
 │
@@ -81,25 +81,32 @@ academic_summarizer/
 └── README.md
 
 
-## 🧪 Getting Started
+## Getting Started
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/academic_summarizer.git
 cd academic_summarizer
+```
 
-2️⃣ Setup Environment (Windows)
+### 2. Setup Environment (Windows)
+
+```bash
 python -m venv .venv
 .venv\\Scripts\\activate
 pip install -r requirements.txt
+```
 
-3️⃣ Run the App
+### 3. Run the App
+```bash
 cd academic_summarizer
 streamlit run main.py
-Gemini API Setup
+```
 
+### 4. Gemini API Setup
 To use the app, you need a Google Gemini API key, for that you have to create a config.py file in the root folder:
+```bash
 # config.py
 GEMINI_API_KEY = "your-key-here"
 Then, you're good to go!
