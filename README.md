@@ -30,8 +30,8 @@
 
 - **Frontend**: Streamlit 
 - **Backend**: Python, pdfplumber, PyMuPDF, Pillow (OCR), Regex
-- **AI Services**: Google Gemini Pro, Gemini Vision (via API)
-- **Utilities**: Session state, Prompt templates, Dynamic chunking
+- **AI Services**: Google Gemini Vision API (for OCR and multimodal understanding)
+- **Utilities**: Prompt templates (Structured prompts passed to Gemini), Dynamic chunking (making smaller context aware sections)
 
 
 ## Getting Started
