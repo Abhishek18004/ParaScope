@@ -1,0 +1,26 @@
+# Core dependencies
+openai
+google-generativeai
+streamlit
+import_ipynb
+
+# PDF handling
+pdfplumber
+PyMuPDF
+
+# Image and OCR
+pytesseract
+Pillow
+opencv-python-headless
+
+# NLP & Text processing
+nltk
+spacy
+tqdm
+
+# Environment and logging
+python-dotenv
+loguru
+
+# Testing
+pytest
