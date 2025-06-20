@@ -1,7 +1,3 @@
-.venv\Scripts\activate   # Activate virtual environment
-cd academic_summarizer
-streamlit run main.py    # Run your Streamlit app
-
 # ParaScope – Academic Paper Summarizer & Explainer
 
 **ParaScope** is a multi-modal academic assistant that simplifies dense research papers, scanned notes, and technical PDFs using state-of-the-art AI. It supports academic comprehension by generating summaries, glossaries, and question-answer pairs.
@@ -68,6 +64,7 @@ streamlit run main.py
 
 ## Project Structure
 
+```bash
 academic_summarizer/
 │
 ├── app/ # Summarization + Prompt logic
@@ -79,7 +76,7 @@ academic_summarizer/
 ├── config.py # API keys & global config
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Getting Started
 
@@ -110,6 +107,14 @@ To use the app, you need a Google Gemini API key, for that you have to create a 
 # config.py
 GEMINI_API_KEY = "your-key-here"
 Then, you're good to go!
+```
+
+### 5. Basic Use
+
+```bash
+.venv\Scripts\activate   # Activate virtual environment
+cd academic_summarizer
+streamlit run main.py    # Run your Streamlit app
 ```
 
 ## Future Work
