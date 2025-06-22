@@ -104,7 +104,7 @@ streamlit run main.py
 ### 4. Gemini API Setup
 To use the app, you need a Google Gemini API key, for that you have to create a config.py file in the root folder:
 ```bash
-# config.py
+# create a .env file in root folder and then write this
 GEMINI_API_KEY = "your-key-here"
 Then, you're good to go!
 ```
@@ -120,6 +120,7 @@ streamlit run main.py    # Run your Streamlit app
 ## Future Work
 
 - Add export to `.pdf` support  
+- Add collapse all and expand all buttonss
 - Enable chat assistant with memory for follow-up queries  
 - Add support for multilingual documents  
 
